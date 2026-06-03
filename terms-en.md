@@ -44,7 +44,7 @@ service apply.
 
 ### 4.1 Free Version
 
-- Up to 5 dhikrs
+- Unlimited dhikrs
 - Banner ads and occasional interstitial ads
 - Classic theme, 3 text size levels
 - Basic haptics and single sound
@@ -52,7 +52,6 @@ service apply.
 
 ### 4.2 Premium Version
 
-- Unlimited dhikrs
 - Ad-free experience
 - 7 theme options
 - Premium sound packs *(coming soon)*
@@ -125,10 +124,11 @@ Görkem Yıldırım assumes no responsibility for user content.
 
 ## 7. Advertising
 
-The Free version displays ads via Google AdMob. Ad content is managed by
-Google; their display is not an endorsement of any product or service by us.
-Sensitive content filters (G — General) are enabled, but Google's algorithm
-may occasionally show inappropriate content. Please report any such cases to
+The Free version displays ads via the AppLovin MAX advertising and mediation
+service. Ad content is managed by AppLovin and the partner ad networks it
+mediates; their display is not an endorsement of any product or service by us.
+Content filters are enabled, but automated systems may occasionally show
+inappropriate content. Please report any such cases to
 `gorkemyildirim@outlook.com`.
 
 ---
@@ -148,7 +148,7 @@ warranties regarding:
 
 - Uninterrupted or error-free operation
 - Suitability for a particular purpose
-- Availability of third-party services (App Store, AdMob, Sentry)
+- Availability of third-party services (App Store, AppLovin, Sentry)
 
 ### 8.3 Liability Limit
 

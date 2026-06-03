@@ -1,7 +1,7 @@
 # Privacy Policy — Zikr (Zikr)
 
 **Effective date:** May 17, 2026
-**Last updated:** May 17, 2026
+**Last updated:** June 3, 2026
 
 This Privacy Policy describes how **Görkem Yıldırım** ("we", "the developer") collects,
 uses, stores, and shares data from users ("you", "the user") of the
@@ -39,18 +39,26 @@ Backup feature is enabled — see section 4.2):
 - App preferences (language, theme, text size, haptic/sound settings)
 - Premium membership state
 
-### 2.2 Anonymous Data Collected by Ad SDKs
+### 2.2 Data Collected by Ad SDKs
 
-In the free version we use the Google AdMob advertising service, which may
+In the free version we use the **AppLovin MAX** advertising and mediation
+service. AppLovin MAX is a mediation platform: ad demand is filled not by a
+single ad network but by AppLovin Corporation and the third-party ad networks
+and demand partners (DSPs) it mediates. This service and its partners may
 collect:
 
-- Anonymous advertising identifier (IDFA — only if you grant App Tracking
-  Transparency permission)
-- Device type, operating system version
-- Approximate location (country level only)
-- Ad interaction metrics (impressions, clicks)
+- Advertising identifier (IDFA on iOS — only if you grant App Tracking
+  Transparency permission; Google Advertising ID / GAID on Android)
+- Device type, operating system version, language and device settings
+- Approximate location (country/region level only, derived from IP address)
+- Ad interaction metrics (impressions, clicks, revenue measurement)
 
-See how this data is processed: https://policies.google.com/privacy
+and may process them for ad serving, measurement, and fraud prevention. Within
+mediation, this data may be shared with the partner ad networks AppLovin
+mediates; each partner has its own privacy policy.
+
+- AppLovin privacy policy: https://www.applovin.com/privacy/
+- AppLovin GDPR and partner/sub-processor list: https://www.applovin.com/gdpr/
 
 ### 2.3 Purchase Data
 
@@ -86,7 +94,8 @@ Sentry's privacy policy: https://sentry.io/privacy/
 
 - **Local data**: To provide the core app functionality (counter, settings)
 - **Ad data**: To show personalized or non-personalized ads (subject to ATT)
-- **Subscription data**: To unlock Premium features and manage renewals
+- **Purchase data**: To unlock Premium features (one-time lifetime purchase —
+  not a subscription)
 - **Error data**: To improve app quality (anonymous)
 
 **We do not sell any data to third parties other than the advertising partners
@@ -98,9 +107,9 @@ described above.**
 
 | Service | Purpose | Data Flow |
 |---|---|---|
-| Google AdMob | Ad display (free version) | Anonymous device identifier |
-| Apple App Store | Purchase processing | Apple user ID |
-| RevenueCat | Subscription management | Anonymous purchase ID |
+| AppLovin MAX | Ad display + mediation (free version) | Advertising identifier, device info; may be shared with partner networks |
+| Apple App Store / StoreKit | Purchase processing (lifetime IAP) | Apple user ID (not shared with us) |
+| Sentry | Crash and error reporting | Anonymous technical data (EU servers) |
 | Expo / EAS | App distribution, OTA updates | Aggregate stats only |
 
 ### 4.1 App Tracking Transparency (ATT)
@@ -122,8 +131,8 @@ If you enable this feature:
 ## 5. Data Retention
 
 - **Local data**: Remains on your device until you uninstall the app
-- **Ad data**: According to AdMob policy (typically 13 months)
-- **Subscription data**: For the subscription duration + 7 years (legal obligation)
+- **Ad data**: According to AppLovin and its partners' policies
+- **Purchase data**: Retained by Apple for the duration of legal obligations
 - **Error reports**: 90 days
 
 ---
@@ -135,7 +144,7 @@ You have the following rights:
 - **Access**: To request a copy of the data we hold about you
 - **Rectification**: To request correction of inaccurate data
 - **Erasure** ("right to be forgotten"): You can delete all local data by
-  uninstalling the App. For data held by Apple/AdMob/RevenueCat, contact the
+  uninstalling the App. For data held by Apple/AppLovin, contact the
   respective service directly or through us.
 - **Portability**: To request your data in a structured format
 - **Objection**: You can withdraw ad consent at any time (iOS Settings →

@@ -46,7 +46,7 @@ hizmet koşulları geçerlidir.
 
 ### 4.1 Free Sürüm
 
-- En fazla 5 zikir
+- Sınırsız zikir ekleme
 - Banner reklam ve duruma göre interstitial reklam
 - Klasik tema, 3 yazı boyutu seviyesi
 - Temel titreşim ve tek ses
@@ -54,7 +54,6 @@ hizmet koşulları geçerlidir.
 
 ### 4.2 Premium Sürüm
 
-- Sınırsız zikir
 - Reklamsız deneyim
 - 7 tema seçeneği
 - Premium ses paketleri *(yakında)*
@@ -127,11 +126,12 @@ Görkem Yıldırım, kullanıcı içeriği için sorumluluk üstlenmez.
 
 ## 7. Reklamlar
 
-Free sürümde Google AdMob aracılığıyla reklam gösterilir. Reklamların içeriği
-Google tarafından yönetilir; ürün veya hizmet onayımız anlamına gelmez. Hassas
-içerik filtreleri (G — General) etkindir, ancak Google'ın algoritması zaman
-zaman uygun olmayan içerik gösterebilir. Bu durumda şikayetinizi
-`gorkemyildirim@outlook.com` adresine bildirin.
+Free sürümde AppLovin MAX reklam ve mediation hizmeti aracılığıyla reklam
+gösterilir. Reklamların içeriği AppLovin ve aracılık ettiği ortak reklam ağları
+tarafından yönetilir; ürün veya hizmet onayımız anlamına gelmez. İçerik
+filtreleri etkindir, ancak otomatik sistemler zaman zaman uygun olmayan içerik
+gösterebilir. Bu durumda şikayetinizi `gorkemyildirim@outlook.com` adresine
+bildirin.
 
 ---
 
@@ -150,7 +150,7 @@ açık veya zımni garanti vermeyiz:
 
 - Kesintisiz veya hatasız çalışma
 - Belirli bir amaca uygunluk
-- 3. taraf hizmetlerin (App Store, AdMob, Sentry) kullanılabilirliği
+- 3. taraf hizmetlerin (App Store, AppLovin, Sentry) kullanılabilirliği
 
 ### 8.3 Sorumluluk Sınırı
 

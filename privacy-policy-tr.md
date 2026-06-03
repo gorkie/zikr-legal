@@ -1,7 +1,7 @@
 # Gizlilik Politikası — Zikr
 
 **Yürürlük tarihi:** 17 Mayıs 2026
-**Son güncelleme:** 17 Mayıs 2026
+**Son güncelleme:** 3 Haziran 2026
 
 Bu Gizlilik Politikası, **Görkem Yıldırım** ("biz", "geliştirici") tarafından geliştirilen
 **Zikr** mobil uygulamasının ("Uygulama") kullanıcılarından
@@ -33,25 +33,32 @@ dışında **hiçbir kişisel veri toplamayız**.
 
 Aşağıdaki veriler **yalnızca cihazınızda**, şifreli yerel depolamada (MMKV) tutulur
 ve sunucularımıza **gönderilmez** (Premium Bulut Yedek özelliği etkin olmadıkça —
-bkz. madde 4.4):
+bkz. madde 4.2):
 
 - Zikir listeniz (başlık, anlam, uzun dua, Arapça metin, hedef, duraklama noktası)
 - Sayaç değerleri ve günlük aktivite kayıtları
 - Uygulama ayarlarınız (dil, tema, yazı boyutu, titreşim/ses tercihleri)
 - Premium üyelik durumu
 
-### 2.2 Reklam SDK'ları Üzerinden Toplanan Anonim Veriler
+### 2.2 Reklam SDK'ları Üzerinden Toplanan Veriler
 
-Ücretsiz sürümde Google AdMob reklam servisi kullanırız. Bu hizmet:
+Ücretsiz sürümde **AppLovin MAX** reklam ve mediation (aracılık) hizmetini
+kullanırız. AppLovin MAX bir mediation platformudur: tek bir reklam ağı değil,
+AppLovin Corporation ve onun aracılık ettiği üçüncü taraf reklam ağları ile
+talep ortakları (DSP'ler) reklam talebini doldurur. Bu hizmet ve ortakları:
 
-- Anonim reklam tanımlayıcısı (IDFA — App Tracking Transparency izninizi
-  vermeniz halinde)
-- Cihaz türü, işletim sistemi sürümü
-- Yaklaşık konum (yalnızca ülke düzeyinde)
-- Reklam etkileşim metrikleri (gösterim, tıklama)
+- Reklam tanımlayıcısı (iOS'ta IDFA — App Tracking Transparency izninizi
+  vermeniz halinde; Android'de Google Reklam Kimliği / GAID)
+- Cihaz türü, işletim sistemi sürümü, dil ve cihaz ayarları
+- Yaklaşık konum (yalnızca ülke/bölge düzeyinde, IP adresinden türetilir)
+- Reklam etkileşim metrikleri (gösterim, tıklama, gelir ölçümü)
 
-toplayabilir. Bu verilerin nasıl işlendiğine dair bilgi:
-https://policies.google.com/privacy
+toplayabilir ve reklam gösterimi, ölçümü ve dolandırıcılık önleme amacıyla
+işleyebilir. Mediation kapsamında bu veriler AppLovin'in aracılık ettiği ortak
+reklam ağlarıyla paylaşılabilir; her ortağın kendi gizlilik politikası vardır.
+
+- AppLovin gizlilik politikası: https://www.applovin.com/privacy/
+- AppLovin GDPR ve ortak/alt-işleyici listesi: https://www.applovin.com/gdpr/
 
 ### 2.3 Satın Alma Verileri
 
@@ -88,7 +95,8 @@ Sentry gizlilik politikası: https://sentry.io/privacy/
 - **Yerel veriler**: Uygulamanın temel işlevini (sayaç, ayarlar) sağlamak için
 - **Reklam verileri**: Kişiselleştirilmemiş veya kişiselleştirilmiş reklam
   göstermek için (ATT iznine bağlı)
-- **Abonelik verileri**: Premium özelliklerini açmak ve yenileme yönetimi için
+- **Satın alma verileri**: Premium özelliklerini açmak için (tek seferlik
+  lifetime satın alma — abonelik değil)
 - **Hata verileri**: Uygulama kalitesini iyileştirmek için (anonim)
 
 **Hiçbir veriyi reklam ortakları dışında üçüncü taraflara satmayız.**
@@ -99,9 +107,9 @@ Sentry gizlilik politikası: https://sentry.io/privacy/
 
 | Hizmet | Amaç | Veri Akışı |
 |---|---|---|
-| Google AdMob | Reklam gösterimi (free sürüm) | Anonim cihaz tanımlayıcısı |
-| Apple App Store | Satın alma işlemleri | Apple kullanıcı kimliği |
-| RevenueCat | Abonelik yönetimi | Anonim satın alma kimliği |
+| AppLovin MAX | Reklam gösterimi + mediation (free sürüm) | Reklam tanımlayıcısı, cihaz bilgisi; ortak ağlarla paylaşılabilir |
+| Apple App Store / StoreKit | Satın alma işlemleri (lifetime IAP) | Apple kullanıcı kimliği (bizimle paylaşılmaz) |
+| Sentry | Kilitlenme ve hata raporlama | Anonim teknik veri (AB sunucuları) |
 | Expo / EAS | Uygulama dağıtımı, OTA güncelleme | Yalnızca toplu istatistik |
 
 ### 4.1 App Tracking Transparency (ATT)
@@ -125,8 +133,8 @@ sunulacaktır. Bu özelliği etkinleştirirseniz:
 ## 5. Veri Saklama Süresi
 
 - **Yerel veriler**: Uygulamayı silene kadar cihazınızda kalır
-- **Reklam verileri**: AdMob politikasına göre (genellikle 13 ay)
-- **Abonelik verileri**: Abonelik süresi + 7 yıl (yasal yükümlülük)
+- **Reklam verileri**: AppLovin ve ortaklarının politikalarına göre saklanır
+- **Satın alma verileri**: Apple tarafında, yasal yükümlülükler süresince
 - **Hata raporları**: 90 gün
 
 ---
@@ -138,7 +146,7 @@ Aşağıdaki haklara sahipsiniz:
 - **Erişim**: Hakkınızda tuttuğumuz verilere erişme
 - **Düzeltme**: Yanlış verilerin düzeltilmesini isteme
 - **Silme** ("unutulma hakkı"): Uygulamayı kaldırarak yerel verilerin tümünü
-  silebilirsiniz. Apple/AdMob/RevenueCat verileri için doğrudan ilgili hizmete
+  silebilirsiniz. Apple/AppLovin verileri için doğrudan ilgili hizmete
   başvurun veya bizim aracılığımızla talep edin.
 - **Taşınabilirlik**: Verilerinizin yapılandırılmış bir formatta verilmesini isteme
 - **İtiraz**: Reklam izninizi her zaman geri çekebilirsiniz (iOS Ayarlar →
