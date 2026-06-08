@@ -1,7 +1,7 @@
 # Gizlilik Politikası — Zikr
 
 **Yürürlük tarihi:** 17 Mayıs 2026
-**Son güncelleme:** 3 Haziran 2026
+**Son güncelleme:** 8 Haziran 2026
 
 Bu Gizlilik Politikası, **Görkem Yıldırım** ("biz", "geliştirici") tarafından geliştirilen
 **Zikr** mobil uygulamasının ("Uygulama") kullanıcılarından
@@ -42,23 +42,20 @@ bkz. madde 4.2):
 
 ### 2.2 Reklam SDK'ları Üzerinden Toplanan Veriler
 
-Ücretsiz sürümde **AppLovin MAX** reklam ve mediation (aracılık) hizmetini
-kullanırız. AppLovin MAX bir mediation platformudur: tek bir reklam ağı değil,
-AppLovin Corporation ve onun aracılık ettiği üçüncü taraf reklam ağları ile
-talep ortakları (DSP'ler) reklam talebini doldurur. Bu hizmet ve ortakları:
+Ücretsiz sürümde **Google AdMob** reklam hizmetini kullanırız. Google ve reklam
+ortakları:
 
 - Reklam tanımlayıcısı (iOS'ta IDFA — App Tracking Transparency izninizi
   vermeniz halinde; Android'de Google Reklam Kimliği / GAID)
 - Cihaz türü, işletim sistemi sürümü, dil ve cihaz ayarları
 - Yaklaşık konum (yalnızca ülke/bölge düzeyinde, IP adresinden türetilir)
-- Reklam etkileşim metrikleri (gösterim, tıklama, gelir ölçümü)
+- Reklam etkileşim metrikleri (gösterim, tıklama)
 
 toplayabilir ve reklam gösterimi, ölçümü ve dolandırıcılık önleme amacıyla
-işleyebilir. Mediation kapsamında bu veriler AppLovin'in aracılık ettiği ortak
-reklam ağlarıyla paylaşılabilir; her ortağın kendi gizlilik politikası vardır.
+işleyebilir. ATT izni vermezseniz kişiselleştirilmemiş reklam gösterilir.
 
-- AppLovin gizlilik politikası: https://www.applovin.com/privacy/
-- AppLovin GDPR ve ortak/alt-işleyici listesi: https://www.applovin.com/gdpr/
+- Google gizlilik politikası: https://policies.google.com/privacy
+- AdMob ortak/reklam teknolojisi sağlayıcıları: https://support.google.com/admob/answer/9012903
 
 ### 2.3 Satın Alma Verileri
 
@@ -105,12 +102,12 @@ Sentry gizlilik politikası: https://sentry.io/privacy/
 
 ## 4. Üçüncü Taraf Hizmetler
 
-| Hizmet | Amaç | Veri Akışı |
-|---|---|---|
-| AppLovin MAX | Reklam gösterimi + mediation (free sürüm) | Reklam tanımlayıcısı, cihaz bilgisi; ortak ağlarla paylaşılabilir |
-| Apple App Store / StoreKit | Satın alma işlemleri (lifetime IAP) | Apple kullanıcı kimliği (bizimle paylaşılmaz) |
-| Sentry | Kilitlenme ve hata raporlama | Anonim teknik veri (AB sunucuları) |
-| Expo / EAS | Uygulama dağıtımı, OTA güncelleme | Yalnızca toplu istatistik |
+| Hizmet                     | Amaç                                      | Veri Akışı                                                        |
+| -------------------------- | ----------------------------------------- | ----------------------------------------------------------------- |
+| Google AdMob               | Reklam gösterimi (free sürüm)             | Reklam tanımlayıcısı, cihaz bilgisi                               |
+| Apple App Store / StoreKit | Satın alma işlemleri (lifetime IAP)       | Apple kullanıcı kimliği (bizimle paylaşılmaz)                     |
+| Sentry                     | Kilitlenme ve hata raporlama              | Anonim teknik veri (AB sunucuları)                                |
+| Expo / EAS                 | Uygulama dağıtımı, OTA güncelleme         | Yalnızca toplu istatistik                                         |
 
 ### 4.1 App Tracking Transparency (ATT)
 
@@ -133,7 +130,7 @@ sunulacaktır. Bu özelliği etkinleştirirseniz:
 ## 5. Veri Saklama Süresi
 
 - **Yerel veriler**: Uygulamayı silene kadar cihazınızda kalır
-- **Reklam verileri**: AppLovin ve ortaklarının politikalarına göre saklanır
+- **Reklam verileri**: Google AdMob politikasına göre (genellikle 13 ay)
 - **Satın alma verileri**: Apple tarafında, yasal yükümlülükler süresince
 - **Hata raporları**: 90 gün
 
@@ -146,7 +143,7 @@ Aşağıdaki haklara sahipsiniz:
 - **Erişim**: Hakkınızda tuttuğumuz verilere erişme
 - **Düzeltme**: Yanlış verilerin düzeltilmesini isteme
 - **Silme** ("unutulma hakkı"): Uygulamayı kaldırarak yerel verilerin tümünü
-  silebilirsiniz. Apple/AppLovin verileri için doğrudan ilgili hizmete
+  silebilirsiniz. Apple/Google verileri için doğrudan ilgili hizmete
   başvurun veya bizim aracılığımızla talep edin.
 - **Taşınabilirlik**: Verilerinizin yapılandırılmış bir formatta verilmesini isteme
 - **İtiraz**: Reklam izninizi her zaman geri çekebilirsiniz (iOS Ayarlar →

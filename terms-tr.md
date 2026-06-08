@@ -56,7 +56,7 @@ hizmet koşulları geçerlidir.
 
 - Reklamsız deneyim
 - 7 tema seçeneği
-- Premium ses paketleri *(yakında)*
+- Premium ses paketleri _(yakında)_
 - Günlük analitikler (heatmap, streak, zikir kırılımı)
 - Günlük otomatik sıfırlama
 - Gelecekte: Bulut yedek, widget
@@ -126,12 +126,11 @@ Görkem Yıldırım, kullanıcı içeriği için sorumluluk üstlenmez.
 
 ## 7. Reklamlar
 
-Free sürümde AppLovin MAX reklam ve mediation hizmeti aracılığıyla reklam
-gösterilir. Reklamların içeriği AppLovin ve aracılık ettiği ortak reklam ağları
-tarafından yönetilir; ürün veya hizmet onayımız anlamına gelmez. İçerik
-filtreleri etkindir, ancak otomatik sistemler zaman zaman uygun olmayan içerik
-gösterebilir. Bu durumda şikayetinizi `gorkemyildirim@outlook.com` adresine
-bildirin.
+Free sürümde Google AdMob aracılığıyla reklam gösterilir. Reklamların içeriği
+Google ve reklam ortakları tarafından yönetilir; ürün veya hizmet onayımız
+anlamına gelmez. İçerik filtreleri (G — General) etkindir, ancak otomatik
+sistemler zaman zaman uygun olmayan içerik gösterebilir. Bu durumda şikayetinizi
+`gorkemyildirim@outlook.com` adresine bildirin.
 
 ---
 
@@ -150,7 +149,7 @@ açık veya zımni garanti vermeyiz:
 
 - Kesintisiz veya hatasız çalışma
 - Belirli bir amaca uygunluk
-- 3. taraf hizmetlerin (App Store, AppLovin, Sentry) kullanılabilirliği
+- 3. taraf hizmetlerin (App Store, AdMob, Sentry) kullanılabilirliği
 
 ### 8.3 Sorumluluk Sınırı
 

@@ -54,7 +54,7 @@ service apply.
 
 - Ad-free experience
 - 7 theme options
-- Premium sound packs *(coming soon)*
+- Premium sound packs _(coming soon)_
 - Daily analytics (heatmap, streak, per-dhikr breakdown)
 - Daily auto-reset
 - Future: cloud backup, widget
@@ -124,12 +124,11 @@ Görkem Yıldırım assumes no responsibility for user content.
 
 ## 7. Advertising
 
-The Free version displays ads via the AppLovin MAX advertising and mediation
-service. Ad content is managed by AppLovin and the partner ad networks it
-mediates; their display is not an endorsement of any product or service by us.
-Content filters are enabled, but automated systems may occasionally show
-inappropriate content. Please report any such cases to
-`gorkemyildirim@outlook.com`.
+The Free version displays ads via Google AdMob. Ad content is managed by Google
+and its advertising partners; their display is not an endorsement of any product
+or service by us. Content filters (G — General) are enabled, but automated
+systems may occasionally show inappropriate content. Please report any such cases
+to `gorkemyildirim@outlook.com`.
 
 ---
 
@@ -148,7 +147,7 @@ warranties regarding:
 
 - Uninterrupted or error-free operation
 - Suitability for a particular purpose
-- Availability of third-party services (App Store, AppLovin, Sentry)
+- Availability of third-party services (App Store, AdMob, Sentry)
 
 ### 8.3 Liability Limit
 

@@ -1,7 +1,7 @@
 # Privacy Policy — Zikr (Zikr)
 
 **Effective date:** May 17, 2026
-**Last updated:** June 3, 2026
+**Last updated:** June 8, 2026
 
 This Privacy Policy describes how **Görkem Yıldırım** ("we", "the developer") collects,
 uses, stores, and shares data from users ("you", "the user") of the
@@ -41,24 +41,20 @@ Backup feature is enabled — see section 4.2):
 
 ### 2.2 Data Collected by Ad SDKs
 
-In the free version we use the **AppLovin MAX** advertising and mediation
-service. AppLovin MAX is a mediation platform: ad demand is filled not by a
-single ad network but by AppLovin Corporation and the third-party ad networks
-and demand partners (DSPs) it mediates. This service and its partners may
-collect:
+In the free version we use the **Google AdMob** advertising service. Google and
+its advertising partners may collect:
 
 - Advertising identifier (IDFA on iOS — only if you grant App Tracking
   Transparency permission; Google Advertising ID / GAID on Android)
 - Device type, operating system version, language and device settings
 - Approximate location (country/region level only, derived from IP address)
-- Ad interaction metrics (impressions, clicks, revenue measurement)
+- Ad interaction metrics (impressions, clicks)
 
-and may process them for ad serving, measurement, and fraud prevention. Within
-mediation, this data may be shared with the partner ad networks AppLovin
-mediates; each partner has its own privacy policy.
+and may process them for ad serving, measurement, and fraud prevention. If you
+decline ATT, non-personalized ads are shown.
 
-- AppLovin privacy policy: https://www.applovin.com/privacy/
-- AppLovin GDPR and partner/sub-processor list: https://www.applovin.com/gdpr/
+- Google privacy policy: https://policies.google.com/privacy
+- AdMob ad technology / partner providers: https://support.google.com/admob/answer/9012903
 
 ### 2.3 Purchase Data
 
@@ -105,12 +101,12 @@ described above.**
 
 ## 4. Third-Party Services
 
-| Service | Purpose | Data Flow |
-|---|---|---|
-| AppLovin MAX | Ad display + mediation (free version) | Advertising identifier, device info; may be shared with partner networks |
-| Apple App Store / StoreKit | Purchase processing (lifetime IAP) | Apple user ID (not shared with us) |
-| Sentry | Crash and error reporting | Anonymous technical data (EU servers) |
-| Expo / EAS | App distribution, OTA updates | Aggregate stats only |
+| Service                    | Purpose                               | Data Flow                                                                |
+| -------------------------- | ------------------------------------- | ------------------------------------------------------------------------ |
+| Google AdMob               | Ad display (free version)             | Advertising identifier, device info                                      |
+| Apple App Store / StoreKit | Purchase processing (lifetime IAP)    | Apple user ID (not shared with us)                                       |
+| Sentry                     | Crash and error reporting             | Anonymous technical data (EU servers)                                    |
+| Expo / EAS                 | App distribution, OTA updates         | Aggregate stats only                                                     |
 
 ### 4.1 App Tracking Transparency (ATT)
 
@@ -131,7 +127,7 @@ If you enable this feature:
 ## 5. Data Retention
 
 - **Local data**: Remains on your device until you uninstall the app
-- **Ad data**: According to AppLovin and its partners' policies
+- **Ad data**: According to Google AdMob policy (typically 13 months)
 - **Purchase data**: Retained by Apple for the duration of legal obligations
 - **Error reports**: 90 days
 
@@ -144,7 +140,7 @@ You have the following rights:
 - **Access**: To request a copy of the data we hold about you
 - **Rectification**: To request correction of inaccurate data
 - **Erasure** ("right to be forgotten"): You can delete all local data by
-  uninstalling the App. For data held by Apple/AppLovin, contact the
+  uninstalling the App. For data held by Apple/Google, contact the
   respective service directly or through us.
 - **Portability**: To request your data in a structured format
 - **Objection**: You can withdraw ad consent at any time (iOS Settings →
@@ -156,8 +152,7 @@ Send requests to `gorkemyildirim@outlook.com`; we will respond within **30 days*
 
 ## 7. Children's Privacy
 
-The App is rated **4+**, but is **not** specifically directed to children under
-13. We do not knowingly collect data from children under 13. If you believe
+The App is rated **4+**, but is **not** specifically directed to children under 13. We do not knowingly collect data from children under 13. If you believe
 your child has provided us with data, please contact us; we will delete it.
 
 ---
