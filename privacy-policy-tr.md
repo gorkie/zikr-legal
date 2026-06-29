@@ -1,7 +1,7 @@
 # Gizlilik Politikası — Zikr
 
 **Yürürlük tarihi:** 17 Mayıs 2026
-**Son güncelleme:** 8 Haziran 2026
+**Son güncelleme:** 28 Haziran 2026
 
 Bu Gizlilik Politikası, **Görkem Yıldırım** ("biz", "geliştirici") tarafından geliştirilen
 **Zikr** mobil uygulamasının ("Uygulama") kullanıcılarından
@@ -26,38 +26,22 @@ yukarıdaki gerçek kişidir.
 
 ## 2. Topladığımız Veriler
 
-Zikr, gizlilik öncelikli tasarlanmıştır. Aşağıdaki kategoriler
+Zikr, gizlilik öncelikli tasarlanmıştır. **Reklam göstermez, sizi izlemez ve
+reklam/izleme amacıyla hiçbir kimlik (IDFA/GAID) kullanmaz.** Aşağıdaki kategoriler
 dışında **hiçbir kişisel veri toplamayız**.
 
 ### 2.1 Cihaz Üzerinde Yerel Olarak Saklanan Veriler
 
 Aşağıdaki veriler **yalnızca cihazınızda**, şifreli yerel depolamada (MMKV) tutulur
 ve sunucularımıza **gönderilmez** (Premium Bulut Yedek özelliği etkin olmadıkça —
-bkz. madde 4.2):
+bkz. madde 4.1):
 
 - Zikir listeniz (başlık, anlam, uzun dua, Arapça metin, hedef, duraklama noktası)
 - Sayaç değerleri ve günlük aktivite kayıtları
 - Uygulama ayarlarınız (dil, tema, yazı boyutu, titreşim/ses tercihleri)
 - Premium üyelik durumu
 
-### 2.2 Reklam SDK'ları Üzerinden Toplanan Veriler
-
-Ücretsiz sürümde **Google AdMob** reklam hizmetini kullanırız. Google ve reklam
-ortakları:
-
-- Reklam tanımlayıcısı (iOS'ta IDFA — App Tracking Transparency izninizi
-  vermeniz halinde; Android'de Google Reklam Kimliği / GAID)
-- Cihaz türü, işletim sistemi sürümü, dil ve cihaz ayarları
-- Yaklaşık konum (yalnızca ülke/bölge düzeyinde, IP adresinden türetilir)
-- Reklam etkileşim metrikleri (gösterim, tıklama)
-
-toplayabilir ve reklam gösterimi, ölçümü ve dolandırıcılık önleme amacıyla
-işleyebilir. ATT izni vermezseniz kişiselleştirilmemiş reklam gösterilir.
-
-- Google gizlilik politikası: https://policies.google.com/privacy
-- AdMob ortak/reklam teknolojisi sağlayıcıları: https://support.google.com/admob/answer/9012903
-
-### 2.3 Satın Alma Verileri
+### 2.2 Satın Alma Verileri
 
 Premium üyelik satın alındığında **Apple App Store StoreKit** üzerinden:
 
@@ -70,7 +54,7 @@ akışı doğrudan Apple StoreKit üzerinden çalışır.
 
 Apple'ın gizlilik politikası: https://www.apple.com/legal/privacy/
 
-### 2.4 Kilitlenme ve Hata Raporları (Sentry)
+### 2.3 Kilitlenme ve Hata Raporları (Sentry)
 
 Uygulamada Sentry (Functional Software, Inc., EU bölgesi) hata izleme servisi
 kullanılır. Sentry'ye yalnızca anonim teknik bilgi gönderilir:
@@ -90,13 +74,11 @@ Sentry gizlilik politikası: https://sentry.io/privacy/
 ## 3. Verileri Nasıl Kullanırız?
 
 - **Yerel veriler**: Uygulamanın temel işlevini (sayaç, ayarlar) sağlamak için
-- **Reklam verileri**: Kişiselleştirilmemiş veya kişiselleştirilmiş reklam
-  göstermek için (ATT iznine bağlı)
 - **Satın alma verileri**: Premium özelliklerini açmak için (tek seferlik
   lifetime satın alma — abonelik değil)
 - **Hata verileri**: Uygulama kalitesini iyileştirmek için (anonim)
 
-**Hiçbir veriyi reklam ortakları dışında üçüncü taraflara satmayız.**
+**Reklam göstermeyiz, sizi izlemeyiz ve hiçbir veriyi üçüncü taraflara satmayız.**
 
 ---
 
@@ -104,18 +86,11 @@ Sentry gizlilik politikası: https://sentry.io/privacy/
 
 | Hizmet                     | Amaç                                      | Veri Akışı                                                        |
 | -------------------------- | ----------------------------------------- | ----------------------------------------------------------------- |
-| Google AdMob               | Reklam gösterimi (free sürüm)             | Reklam tanımlayıcısı, cihaz bilgisi                               |
 | Apple App Store / StoreKit | Satın alma işlemleri (lifetime IAP)       | Apple kullanıcı kimliği (bizimle paylaşılmaz)                     |
 | Sentry                     | Kilitlenme ve hata raporlama              | Anonim teknik veri (AB sunucuları)                                |
 | Expo / EAS                 | Uygulama dağıtımı, OTA güncelleme         | Yalnızca toplu istatistik                                         |
 
-### 4.1 App Tracking Transparency (ATT)
-
-iOS 14.5+ üzerinde, reklam tanımlayıcısının (IDFA) kullanımı için
-**onayınızı isteriz**. İzin vermezseniz, kişiselleştirilmemiş reklamlar
-gösterilir.
-
-### 4.2 Premium Bulut Yedek (Gelecek Sürüm)
+### 4.1 Premium Bulut Yedek (Gelecek Sürüm)
 
 İleri sürümde Premium kullanıcılar için Supabase tabanlı bulut yedek opsiyonu
 sunulacaktır. Bu özelliği etkinleştirirseniz:
@@ -130,7 +105,6 @@ sunulacaktır. Bu özelliği etkinleştirirseniz:
 ## 5. Veri Saklama Süresi
 
 - **Yerel veriler**: Uygulamayı silene kadar cihazınızda kalır
-- **Reklam verileri**: Google AdMob politikasına göre (genellikle 13 ay)
 - **Satın alma verileri**: Apple tarafında, yasal yükümlülükler süresince
 - **Hata raporları**: 90 gün
 
@@ -146,8 +120,7 @@ Aşağıdaki haklara sahipsiniz:
   silebilirsiniz. Apple/Google verileri için doğrudan ilgili hizmete
   başvurun veya bizim aracılığımızla talep edin.
 - **Taşınabilirlik**: Verilerinizin yapılandırılmış bir formatta verilmesini isteme
-- **İtiraz**: Reklam izninizi her zaman geri çekebilirsiniz (iOS Ayarlar →
-  Gizlilik → İzleme)
+- **İtiraz**: Verilerinizin işlenmesine itiraz etme
 
 Taleplerinizi `gorkemyildirim@outlook.com` adresine yazabilirsiniz; en geç **30 gün**
 içinde yanıt veririz.
@@ -173,7 +146,7 @@ saklamak için kullanılır. Uygulamayı silerek tüm yerel veriyi temizleyebili
 ## 9. Veri Güvenliği
 
 - Yerel veriler MMKV tabanlı şifreli depolamada saklanır
-- Reklam ve satın alma verileri TLS üzerinden iletilir
+- Satın alma verileri TLS üzerinden iletilir
 - Apple Sign-In ile Apple'ın güvenlik altyapısı kullanılır
 - Hiçbir parola veya hassas finansal veri sunucularımızda saklanmaz
 
